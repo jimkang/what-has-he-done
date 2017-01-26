@@ -1,10 +1,14 @@
 --- 
 -
-  name: Trump tells EPA to freeze all grants and contracts
+  name: Trump tells EPA to freeze all grants and contracts, silenced
   stamp: 2017-01-24
-  description:
-    "It has instructed EPA officials to freeze all grants and contracts, a move that could affect everything from state-led climate research to localized efforts to improve air and water quality to environmental justice projects aimed at helping poor communities. "
+  description: >
+    <p>"It has instructed EPA officials to freeze all grants and contracts, a move that could affect everything from state-led climate research to localized efforts to improve air and water quality to environmental justice projects aimed at helping poor communities."</p>
+    <p>EPA told to cease all communications.</p>
   urls:
+    -
+      name: The Trump Administration Really Doesn't Want EPA Employees Talking to the Press
+      url: http://www.motherjones.com/environment/2017/01/trump-epa-gag-order      
     -
       name: 11 stories from President Trump’s first 100 hours that deserve more attention
       url: https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/01/25/daily-202-11-stories-from-president-trump-s-first-100-hours-that-deserve-more-attention/588823b1e9b69b432bc7e08a/
@@ -14,6 +18,7 @@
   tags:
     - environment
     - dismantling
+    - silencing
 - 
   name: Warren votes to confirm Ben Carson as Secretary of Housing and Urban Development
   stamp: 2017-01-24
@@ -27,3 +32,68 @@
   tags: 
     - cabinet
     - democrats
+-
+  name: Boston rejects immigration executive orders.
+  stamp: 2017-01-25
+  description:
+    Mayor Walsh of Boston says Boston will defy Trump executive orders about immigration.
+  urls:
+    - 
+      name: Walsh's tweet
+      url: https://twitter.com/marty_walsh/status/824378825396076563
+  tags:
+    - democrats
+    - boston
+-
+  name: Health and Human Services silenced
+  stamp: 2017-01-24
+  description:  "Department of Health and Human Services were reportedly directed “not to send any correspondence to public officials (to include Members of Congress and state and local officials) between now and February 3, unless specifically authorized by the Department."
+  urls:
+    - 
+      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
+      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+  tags:
+    - silencing
+-
+  name: Health and Human Services silenced
+  stamp: 2017-01-24
+  description: "Department of Health and Human Services were reportedly directed “not to send any correspondence to public officials (to include Members of Congress and state and local officials) between now and February 3, unless specifically authorized by the Department."
+  urls:
+    - 
+      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
+      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+  tags:
+    - silencing
+-
+  name: Department of Agriculture silenced
+  stamp: 2017-01-23
+  description: 'Department of Agriculture’s Agricultural Research Service was directed not to release “any public-facing documents,” including, but not limited to, “news releases, photos, fact sheets, news feeds, and social media content,” according to an email obtained by the Associated Press.'
+  urls:
+    - 
+      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
+      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+  tags:
+    - silencing
+    - science
+-
+  name: NIH silenced
+  stamp: 2017-01-24
+  description: 'The National Institutes of Health were “to hold on publishing new rules or guidance in the Federal Register or other public forums and discussing them with public officials until the Administration has had an opportunity to review them,” per Institutes spokeswoman Renate Myles.'
+  urls:
+    - 
+      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
+      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+  tags:
+    - silencing
+    - science
+-
+  name: Department of Transportation silenced
+  stamp: 2017-01-23
+  description: 'The Department of Transportation told employees not to publish news releases or social media until they receive new guidance from the Trump administration.'
+  urls:
+    - 
+      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
+      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+  tags:
+    - silencing
+
