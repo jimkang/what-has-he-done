@@ -1,8 +1,24 @@
 --- 
+-
+  name: Trump tells EPA to freeze all grants and contracts
+  stamp: 2017-01-24
+  description:
+    "It has instructed EPA officials to freeze all grants and contracts, a move that could affect everything from state-led climate research to localized efforts to improve air and water quality to environmental justice projects aimed at helping poor communities. "
+  urls:
+    -
+      name: 11 stories from President Trump’s first 100 hours that deserve more attention
+      url: https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/01/25/daily-202-11-stories-from-president-trump-s-first-100-hours-that-deserve-more-attention/588823b1e9b69b432bc7e08a/
+    -
+      name: Trump administration tells EPA to freeze all grants, contracts
+      url: https://www.washingtonpost.com/news/energy-environment/wp/2017/01/23/trump-administration-tells-epa-to-freeze-all-grants-contracts/
+  tags:
+    - environment
+    - dismantling
 - 
   name: Warren votes to confirm Ben Carson as Secretary of Housing and Urban Development
-  description: 
-    A bookmarklet that cuts the friction between thinking you'd like to read a book and actually reading it.
+  stamp: 2017-01-24
+  description:
+    Elizabeth Warren votes to confirm Ben Carson as HUD Secretary. After receiving lots of feedback about that from constituents, she offered this <a href="https://www.facebook.com/senatorelizabethwarren/posts/716640075165155">explanation</a>, in which she states that, despite being completely unqualified, because he made promises in writing, she feels he is accountable.
   urls: 
     -
       name: Boston Magazine
@@ -11,4 +27,3 @@
   tags: 
     - cabinet
     - democrats
-

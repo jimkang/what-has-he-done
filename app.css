@@ -38,6 +38,10 @@ ul {
   margin-bottom: 1em;
 }
 
+.thing .stamp {
+  margin-bottom: 1em;
+}
+
 .thing .link-root {
   margin-top: 1em;
 }
@@ -50,6 +54,10 @@ ul {
   color: #fb0c0c;
   font-weight: bold;
   cursor: pointer;
+}
+
+.thing .link-root li {
+  margin-bottom: 1em;
 }
 
 a:link {
