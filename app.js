@@ -18,9 +18,11 @@ function parseRoute() {
 
 function route() {
   var routeDict = parseRoute();
+  var dataURL = 'data/deeds.yaml';
   if ('dataURL' in routeDict) {
-    listEmAll.loadList({url: routeDict.dataURL}, sb(updateAllThings, handleError));
+    dataURL = routeDict.dataURL;
   }
+  listEmAll.loadList({url: dataURL}, sb(updateAllThings, handleError));
 }
 
 function updateAllThings(thingsLoaded) {
