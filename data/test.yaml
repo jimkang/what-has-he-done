@@ -96,4 +96,59 @@
       url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
   tags:
     - silencing
+-
+  name: Trump stops agencies from issuing regulations
+  stamp: 2017-01-24
+  description: The regulations cancelled include EPA regulations, rules about mistreating horses, and a rule about inspecting aircraft fuselages for cracks.
+  urls:
+    -
+      name: Agencies interpret Trump regulatory freeze broadly
+      url: http://www.politico.com/blogs/under-the-radar/2017/01/agencies-give-trump-regulatory-freeze-broad-reach-234149
+  tags:
+    - dismantling
+    - safety
+-
+  name: Sessions refuses to recuse himself from investigations into Trump's constitutional violations
+  stamp: 2017-01-23
+  urls:
+    -
+      name: Sessions won't recuse himself from DOJ Trump probes
+      url: http://www.politico.com/story/2017/01/jeff-sessions-trump-probes-234087
+  tags:
+    - corruption
+-
+  name: The State Department’s entire senior management team resigns
+  stamp: 2017-01-26
+  description: >
+    They were taking on responsibilities and working with the transition team, as if they planned to keep serving, but after a meeting with Tillerson, they suddenly resigned.
+    <blockquote>“It’s the single biggest simultaneous departure of institutional memory that anyone can remember, and that’s incredibly difficult to replicate,” said David Wade, who served as State Department chief of staff under Secretary of State John Kerry. “Department expertise in security, management, administrative and consular positions in particular are very difficult to replicate and particularly difficult to find in the private sector.”</blockquote>
+  urls:
+    -
+      name: The State Department’s entire senior management team just resigned
+      url: https://www.washingtonpost.com/news/josh-rogin/wp/2017/01/26/the-state-departments-entire-senior-management-team-just-resigned/
+  tags:
+    - dismantling
+    - foreign-relations
+-
+  name: Trump cancels TPP
+  stamp: 2017-01-23
+  urls:
+    -
+      name: Trump Abandons Trans-Pacific Partnership, Obama’s Signature Trade Deal
+      url: https://www.nytimes.com/2017/01/23/us/politics/tpp-trump-trade-nafta.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news
+  tags:
+    - trade
+-
+  name: Trump cuts funding to aid organizations that offer abortion counseling
+  stamp: 2017-01-23
+  description: >
+    <blockquote>Trump’s version is a radically expanded one, as reporters have begun to notice. In the past, foreign N.G.O.s had to accept the conditions set out by the Mexico City Policy in order to get funds from two stipulated sources: U.S.A.I.D. and, after 2003, the U.S. State Department. But Trump’s version extends the requirement to global aid furnished by all U.S. governmental departments and agencies. This is both sweeping and, in the Trumpian way, very confusing to the people trying to do their jobs in the federal government. It could potentially affect an enormous range of health activities that the United States government engages in around the world, including work combatting H.I.V. and many other infectious diseases, and promoting maternal and child nutrition.</blockquote>
+  urls:
+    -
+      name: TRUMP MAKES THE GLOBAL GAG RULE ON ABORTION EVEN WORSE
+      url: http://www.newyorker.com/news/daily-comment/trump-makes-the-global-gag-rule-on-abortion-even-worse
+  tags:
+    - abortion
+    - women
+    - dismantling
 
