@@ -33,18 +33,6 @@
     - cabinet
     - democrats
 -
-  name: Boston rejects immigration executive orders.
-  stamp: 2017-01-25
-  description:
-    Mayor Walsh of Boston says Boston will defy Trump executive orders about immigration.
-  urls:
-    - 
-      name: Walsh's tweet
-      url: https://twitter.com/marty_walsh/status/824378825396076563
-  tags:
-    - democrats
-    - boston
--
   name: Health and Human Services silenced
   stamp: 2017-01-24
   description:  "Department of Health and Human Services were reportedly directed “not to send any correspondence to public officials (to include Members of Congress and state and local officials) between now and February 3, unless specifically authorized by the Department."
@@ -151,4 +139,26 @@
     - abortion
     - women
     - dismantling
-
+-
+  name: Trump orders Dakota Access Pipeline environmental reviews stopped
+  stamp: 2017-01-25
+  description: >
+    <blockquote>In December, the US Army Corps of Engineers rejected the permit that the project needed for its completion.
+    <p>But on Tuesday, Trump signed a series of directives aimed at speeding up the pipeline's approval process. One of them ordered an end to what he called "incredibly cumbersome" environmental reviews. Those reviews are seen by many government agencies like the Environmental Protection Agency, as well as environmentalists, as cornerstones to ensuring the environment is taken into account when new construction projects are ordered.</p>
+  urls:
+    -
+      name: Protesters say a leak in the Dakota Access pipeline, which Trump just advanced, could be a 'death sentence'
+      url: http://www.businessinsider.com/trump-dakota-access-pipeline-dapl-water-environment-2017-1
+  tags:
+    - environment
+    - dismantling    
+-
+  name: Trump orders federal agencies to ask manufacturing corporations how to reduce regulation upon themselves
+  stamp: 2017-01-26
+  description: >
+    <blockquote>Section 2 of the Presidential Memo on Manufacturing directs the heads of all federal agencies to (1) expedite reviews and approvals for proposals to build new or expand existing manufacturing facilities; and (2) reduce regulatory burdens affecting domestic manufacturing.</blockquote>
+    There is nothing about considering the fairness or public benefit of the regulations in his memorandum.
+  urls:
+    -
+      name: President Trump Directs Federal Agencies to Solicit Input from Manufacturing Sector on Streamlined Permitting and Reduction of Regulatory Burdens
+      url: http://www.natlawreview.com/article/president-trump-directs-federal-agencies-to-solicit-input-manufacturing-sector
