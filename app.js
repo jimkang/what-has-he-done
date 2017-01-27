@@ -25,6 +25,7 @@ function route() {
 
 function updateAllThings(thingsLoaded) {
   allThings = thingsLoaded;
+  allThings.sort(compareStamps);
   renderCurrentRoute();
 }
 
@@ -63,3 +64,13 @@ function hasTags(tags, thing) {
   var commonTags = intersection(thing.tags, tags);
   return commonTags.length > 0;
 }  
+
+function compareStamps(a, b) {
+  if (a.stamp > b.stamp) {
+    // Later stamp should go first.
+    return -1;
+  }
+  else {
+    return 1;
+  }
+}
