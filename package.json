@@ -27,6 +27,8 @@
     "uglify-js": "^2.4.17"
   },
   "dependencies": {
+    "basic-browser-request": "^6.0.0",
+    "call-next-tick": "^1.1.2",
     "handle-error-web": "^1.0.0",
     "list-em-all": "^1.2.0",
     "lodash.curry": "^4.1.1",

@@ -69,3 +69,56 @@ a:link {
 a:visited {
   color: #c10953;
 }
+
+.deed-form {
+  width: 80%;
+  min-width: 320px;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.deed-form label {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  color: #444;
+}
+
+.deed-form .form-pair {
+  margin-bottom: 0.5em;
+}
+
+.deed-form input {
+  width: 100%;
+  font-size: 2em;
+  border-radius: 10px;
+  border: solid 2px black;
+  padding: 0.25em;
+  text-align: center;
+  margin: 0.25em;
+  font-family: helvetica neue, helvetica, sans-serif;
+}
+
+#deed-description {
+  font-size: 2em;
+  height: 8em;
+  border-radius: 10px;
+  border: solid 2px black;
+  padding: 0.25em;
+}
+
+button {
+  margin-top: 1em;
+  background-color: #fb0c6c;
+  padding-top: 0.25em;
+  padding-left: 1em;
+  padding-right: 0.8em;
+  border-radius: 4px;
+  padding-bottom: 0.25em;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  letter-spacing: 0.16em;
+  border: 0;
+  font-size: 2em;
+}
