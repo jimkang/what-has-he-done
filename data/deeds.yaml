@@ -32,16 +32,7 @@
   tags: 
     - cabinet
     - democrats
--
-  name: Health and Human Services silenced
-  stamp: 2017-01-24
-  description:  "Department of Health and Human Services were reportedly directed “not to send any correspondence to public officials (to include Members of Congress and state and local officials) between now and February 3, unless specifically authorized by the Department."
-  urls:
-    - 
-      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
-      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
-  tags:
-    - silencing
+    - collaborators
 -
   name: Health and Human Services silenced
   stamp: 2017-01-24
@@ -138,6 +129,7 @@
   tags:
     - abortion
     - women
+    - healthcare
     - dismantling
 -
   name: Trump orders Dakota Access Pipeline environmental reviews stopped
@@ -163,15 +155,65 @@
       name: President Trump Directs Federal Agencies to Solicit Input from Manufacturing Sector on Streamlined Permitting and Reduction of Regulatory Burdens
       url: http://www.natlawreview.com/article/president-trump-directs-federal-agencies-to-solicit-input-manufacturing-sector
 -
-  name: Trump suspends U.S. Refugee Admissions Program, shuts out Syrian refugees fleeing war
+  name: Trump suspends U.S. Refugee Admissions Program, shuts out Syrian refugees fleeing war, bans Muslims from entering coutry
   stamp: 2017-01-27
   description: >
-    On <a href="https://twitter.com/Stl_Manifest">Holocaust Remembrance Day</a>, Trump signed an executive order specifically shutting out Syrian refugees fleeing a horrific civil war and suspends the U.S. Refugee Admissions Program for three months.
+    <p>On <a href="https://twitter.com/Stl_Manifest">Holocaust Remembrance Day</a>, Trump signs an executive order specifically shutting out Syrian refugees fleeing a horrific civil war and suspends the U.S. Refugee Admissions Program for three months. He suspends entry from seven predominantly-Muslim nations for 90 days.</p>
+    <p>Paul Ryan (despite previous statements taking a contrary position) and Alabama Gov. Robert Bentley vocally support it.</p>
+    <p>The executive order invalidates already-issued visas and green cards.</p>
   urls:
     -
       name: Trump Signs Two Executive Orders; Expands Power of Military, ‘Extreme Vetting’
       url: http://www.nbcnews.com/news/us-news/trump-signs-two-executive-orders-expands-power-military-extreme-vetting-n713336
+    -
+      name: Advocacy, Aid Groups Condemn Trump Order as ‘Muslim Ban’
+      url: http://www.nbcnews.com/news/us-news/advocacy-aid-groups-condemn-trump-s-muslim-ban-order-n713511
   tags:
     - racism
     - immigration
     - dismantling
+    - paul-ryan
+    - robert-bently
+-
+  name: Republicans Tom McClintock, Rob Portman, Tom MacArthur and others secretly admit that dismantling ACA will hurt Americans
+  stamp: 2017-01-27
+  urls:
+    -
+      name: In leaked audio, Republicans destroy their own public talking points on Obamacare
+      url: https://www.washingtonpost.com/blogs/plum-line/wp/2017/01/27/in-leaked-audio-republicans-destroy-their-own-public-talking-points-on-obamacare/?utm_term=.8ae68519ed3a
+  tags:
+    - healthcare
+    - collaborators
+    - congressional-republicans
+-
+  name: Trump grants immigration officer powers to local and state police, regardless of training
+  description: <blockquote>The executive action empowers local and state police to “perform the functions of immigration officers in relation to the investigation, apprehension, or detention” of undocumented immigrants.</blockquote>
+  stamp: 2017-01-25
+  urls:
+    -
+      name: The Scariest Portions of Trump’s Big Immigration Executive Orders
+      url: http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
+-
+  name: Trump targets immigrants as the Nazis did in the 1930s
+  description: >
+    <blockquote><ul><li>It creates a weekly report of “a comprehensive list of criminal actions committed by aliens and any jurisdiction that ignored or otherwise failed to honor any detainers with respect to such aliens.” So, an undocumented immigrant crime report/sanctuary city shame list.</li>
+        <li>It establishes a special “Office for Victims of Crimes Committed by Removable Aliens.”</li></ul></blockquote>
+  stamp: 2017-01-25
+  urls:
+    -
+      name: The Scariest Portions of Trump’s Big Immigration Executive Orders
+      url: http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
+-
+  name: Trump removes chairman of the Joint Chiefs and Director of National Intelligence from the National Security Council, adds his white nationalist advisor Steve Bannon
+  stamp: 2017-01-28
+  description: >
+    <blockquote><a href="https://twitter.com/joshrogin/status/825551239723286528">Steve Bannon is now</a> on the National Security Council Principals Committee, equal status to the Secretaries of State and Defense.</blockquote>
+    <p>Steve Bannon is once called himself a <a href="http://www.thedailybeast.com/articles/2016/08/22/steve-bannon-trump-s-top-guy-told-me-he-was-a-leninist.html">Leninist who wants to "destroy the state"</a>.</p><p><a href="https://en.wikipedia.org/wiki/Chairman_of_the_Joint_Chiefs_of_Staff">The Chairman of the Joint Chiefs of Staff</a> (CJCS) is, by U.S. law, the highest-ranking and senior most military officer in the United States Armed Forces.</p><p><a href="https://en.wikipedia.org/wiki/Director_of_National_Intelligence">The Director of National Intelligence</a> is the head of the sixteen-member United States Intelligence Community, which includes the CIA and the FBI.</p>
+  urls:
+    -
+      name: Trump orders ISIS plan, gives Bannon role in revamped National Security Council
+      url: http://www.chicagotribune.com/news/nationworld/politics/ct-trump-isis-plan-bannon-security-role-20170128-story.html
+  tags:
+    - security
+    - dismantling
+    - racism
