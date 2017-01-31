@@ -1,5 +1,4 @@
 var request = require('basic-browser-request');
-var config = require('./config');
 var sb = require('standard-bail')();
 var callNextTick = require('call-next-tick');
 
@@ -10,62 +9,35 @@ const estimatedExpirationLengthInDays = 1;
 function findToken({routeDict, store, currentDate}, done) {  
   if ('code' in routeDict) {
     var reqOpts = {
-      method: 'POST',
-      url: 'https://github.com/login/oauth/access_token?' +
-        'client_id=' + config.github.clientId +
-        '&client_secret=' + config.github.clientSecret +
-        '&code=' + routeDict.code,
-      json: true,
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      // body: {
-      //   client_id: config.github.clientId,
-      //   client_secret: config.github.clientSecret,
-      //   code: routeDict.code        
-      // }
+      method: 'GET',
+      url: 'http://162.243.21.88:5876/exchange?code=' + routeDict.code,
     };
-    // request(reqOpts, sb(extractToken, done));
-
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', reqOpts.url);
-    xhr.onload = logIt;
-    xhr.send();
-
-    function logIt() {
-      debugger;
-    }
-
-    return;
-  }
-  
-  if (store.tokenInfo) {
+    request(reqOpts, sb(extractToken, done));
+  }  
+  else if (store.tokenInfo) {
     var tokenInfo = JSON.parse(store.tokenInfo);
     if (tokenInfo.expires > currentDate.getTime()) {
       callNextTick(done, null, tokenInfo.token);
-      return;
     }
   }
-
-  done(new Error('No token or code found.'));
+  else {
+    done(new Error('No token or code found.'));
+  }
 
   function extractToken(res, body) {
-    var token;
-
-    if (body && body.access_token) {
-      token = body.access_token;
+    if (res.statusCode === 200 && body) {
       store.tokenInfo = JSON.stringify({
-        token: token,
+        token: body,
         expires: currentDate.getTime() +
           estimatedExpirationLengthInDays * 24 * 60 * 60 * 1000
       });
     }
 
-    if (token) {
-      done(null, token);
+    if (store.tokenInfo.token) {
+      done(null, store.tokenInfo.token);
     }
     else {
-      done(new Error('Could not get the token from GitHub.'));
+      done(new Error('Could not get the token from token exchanger.'));
     }
   }
 }

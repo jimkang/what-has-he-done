@@ -4,7 +4,7 @@ TRANSFORM_SWITCH = -t [ babelify --presets [ es2015 ] ]
 
 run-add-deed:
 	wzrd add-deed-app.js:add-deed/index.js \
-		 --https \
+		 # --https \
 		 -- \
 			-d \
 			$(TRANSFORM_SWITCH)
