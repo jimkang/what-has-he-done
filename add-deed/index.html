@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>What has he done to us: Add deed</title>
+  <link rel="stylesheet" href="../app.css"></link>
+</head>
+<body>
+
+<section>
+  <div class="deed-form">
+    <div class="form-pair">
+      <label>Name</label>
+      <input type="text" id="deed-name" value="Deed name"></input>
+    </div>
+    <div class="form-pair">
+      <label>Stamp</label>
+      <input type="date" id="deed-stamp"></input>
+    </div>
+    <div class="form-pair">
+      <label>Description</label>
+      <div contenteditable id="deed-description">Deed description</div>
+    </div>
+    <ul class="url-form-items">
+      <li>
+        <div class="form-pair">
+          <label>Link name</label>
+          <input type="text" class="deed-link-name" value="Some news site"></input>
+        </div>
+        <div class="form-pair">
+          <label>Link URL</label>
+          <input type="text" class="deed-link-url" value="http://news.google.com"></input>
+        </div>
+      </li>
+      <li>
+        <div class="form-pair">
+          <label>Link name</label>
+          <input type="text" class="deed-link-name"></input>
+        </div>
+        <div class="form-pair">
+          <label>Link URL</label>
+          <input type="text" class="deed-link-url"></input>
+        </div>
+      </li>
+      <li>
+        <div class="form-pair">
+          <label>Link name</label>
+          <input type="text" class="deed-link-name"></input>
+        </div>
+        <div class="form-pair">
+          <label>Link URL</label>
+          <input type="text" class="deed-link-url"></input>
+        </div>
+      </li>
+    </ul>
+
+    <div id="status-message" class="annotation hidden warning">
+    </div>
+
+    <button id="add-deed-button">Add</button>
+  </div>
+
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
