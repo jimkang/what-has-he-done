@@ -3,15 +3,14 @@ var findToken = require('./find-token');
 var config = require('./config');
 var handleError = require('handle-error-web');
 var wireAddButton = require('./representers/wire-add-button');
-var SubmitDeed = require('./submit-deed');
-var sb = require('standard-bail')();
+var DeedSubmitter = require('./deed-submitter');
+var request = require('basic-browser-request');
 
 var token;
 var submitDeed;
 
 ((function go() {
   route();
-  wireAddButton({onClick: submitDeed});
 })());
 
 function route() {
@@ -28,7 +27,7 @@ function route() {
   );
 }
 
-function decideOnToken(error, retrievedToken, done) {
+function decideOnToken(error, retrievedToken) {
   if (error) {
     if (error.message === 'No token or code found.') {
       redirectToAuth();
@@ -39,9 +38,17 @@ function decideOnToken(error, retrievedToken, done) {
   }
   else {
     token = retrievedToken;
-    submitDeed = SubmitDeed({
-      gitRepoOwner
-    });
+
+    submitDeed = DeedSubmitter({
+      gitRepoOwner: 'jimkang',
+      gitToken: token,
+      request: request,
+      encodeInBase64: window.btoa,
+      decodeFromBase64: window.atob
+    })
+    .submitDeed;
+
+    wireAddButton({onClick: submitDeed});
   }
 }
 

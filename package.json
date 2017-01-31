@@ -36,6 +36,7 @@
     "d3-selection": "^1.0.3",
     "handle-error-web": "^1.0.0",
     "list-em-all": "^1.2.0",
+    "lodash.compact": "^3.0.1",
     "lodash.curry": "^4.1.1",
     "lodash.intersection": "^4.4.0",
     "qs": "^6.3.0",

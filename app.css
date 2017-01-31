@@ -6,6 +6,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 ul {
@@ -121,4 +122,15 @@ button {
   letter-spacing: 0.16em;
   border: 0;
   font-size: 2em;
+}
+
+.warning {
+    font-size: 2em;
+    background-color: #ffff8d;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.hidden {
+  display: none !important;
 }
