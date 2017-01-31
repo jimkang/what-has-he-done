@@ -2,10 +2,17 @@ var qs = require('qs');
 var findToken = require('./find-token');
 var config = require('./config');
 var handleError = require('handle-error-web');
+var wireAddButton = require('./representers/wire-add-button');
+var SubmitDeed = require('./submit-deed');
+var sb = require('standard-bail')();
 
 var token;
+var submitDeed;
 
-route();
+((function go() {
+  route();
+  wireAddButton({onClick: submitDeed});
+})());
 
 function route() {
   // Skip the # part of the query.
@@ -17,11 +24,11 @@ function route() {
       store: window.localStorage,
       currentDate: new Date()
     },
-    saveToken
+    decideOnToken
   );
 }
 
-function saveToken(error, retrievedToken) {
+function decideOnToken(error, retrievedToken, done) {
   if (error) {
     if (error.message === 'No token or code found.') {
       redirectToAuth();
@@ -32,7 +39,9 @@ function saveToken(error, retrievedToken) {
   }
   else {
     token = retrievedToken;
-    // TODO.
+    submitDeed = SubmitDeed({
+      gitRepoOwner
+    });
   }
 }
 
