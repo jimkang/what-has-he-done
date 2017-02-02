@@ -217,3 +217,21 @@
     - security
     - dismantling
     - racism
+-
+  name: "Trump orders two regulations to be removed for every one proposed"
+  stamp: 2017-01-30
+  description: >
+    <blockquote>(a)  Unless prohibited by law, whenever an executive department or agency (agency) publicly proposes for notice and comment or otherwise promulgates a new regulation, it shall identify at least two existing regulations to be repealed.</blockquote>
+    The administration also sets the budget for regulations to be $0 for 2017.
+    <p><a href="https://en.wikipedia.org/wiki/Administrative_Procedure_Act_(United_States)">Regulations</a> are rules that agencies are empowered to create to enforce laws. The arbitrary removal of a regulation that enforces a law in order to enforce another law or aspect of the law is unprecedented.</p>
+  urls:
+    -
+      name: "Executive order"
+      url: "https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling"
+    -
+      name: "Trump signs executive order aiming to slash regulations"
+      url: "http://www.cnbc.com/2017/01/30/trump-set-to-sign-executive-order-aiming-to-slash-regulations.html"
+  tags:
+    - dismantling
+    - corporations
+    - safety
