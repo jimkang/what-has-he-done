@@ -19,6 +19,7 @@ For now, the only way you can add a Trump deed to this is if you are familiar wi
 - Fork this repo.
 - Edit [deeds.yaml](https://github.com/jimkang/what-has-he-done/blob/gh-pages/data/deeds.yaml) in your fork.
 - Add an entry to the file. An entry looks like this:
+<a name="yaml-example-entry">
 ```
     -
       name: Trump forces out Border Patrol chief
