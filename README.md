@@ -109,6 +109,31 @@ In the case of this app, the root module is defined in `app.js`. It has an [IIFE
 
 Then, it asks the [list-em-all module](https://github.com/jimkang/list-em-all) to load that data. If the load is successful, `updateAllThings` sorts the loaded deeds, then asks `renderCurrentRoute` to filter the deeds by tags specified in the route, then calls list-em-all to render them.
 
+In the near future, there will be other views that will present the data in ways other than the `list-em-all`-style list.
+
+**Submission app**
+
+The submission app works like this:
+
+1. Gather and validate information comprising an adminstration deed from the form.
+2. Either retrieve a stored GitHub API token if it's there or send the user to GitHub to get one.
+3. Submit a commit that adds to the list of deeds to a [git repo](https://github.com/jimkang/what-has-he-done-data).
+
+`add-deed/index.html` contains the static content in the app, which is a form that contains fields that corresponds to the properties of a [YAML entry](https://github.com/jimkang/what-has-he-done#yaml-example-entry). It's the first thing the browser loads. It then loads `add-deed/index.js`.
+
+`index.js`, in production, is a single JavaScript file containing all of the application logic.
+
+For the submission app, the root module is defined in `add-deed-app.js`. As in the presenter app, it has an IIFE named `go` that calls `route`.
+
+`route` in this app parses the hash, and then calls `findToken` (defined in `find-token.js`). 
+
+`findToken`'s job is to callback with a valid GitHub API token, either by finding it in a store object or by exchanging a code from the GitHub API for one. 
+
+It looks for a `tokenInfo` property in whichever `store` object you send it. In this case, we're sending it `window.localStorage`, so it's looking for `tokenInfo` in local storage. If it finds it, it calls back with that. If it doesn't find one, but does find a `code` param in the URL route, it calls a [service](https://github.com/jimkang/github-token-exchanger) to trade the code for a token, stores that token, then calls back with the token.
+
+TODO
+
+
 Development setup
 ------------
 
