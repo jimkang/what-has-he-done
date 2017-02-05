@@ -53,10 +53,60 @@ There's two apps here:
 1. [The presenter app](http://jimkang.com/what-has-he-done/).
 2. [The submission app](http://jimkang.com/what-has-he-done/add-deed/), which is for submitting deeds to be added.
 
-These are both JavaScript apps that are built with [Browserify](http://browserify.org/). Browserify lets you structure your app as Node-style modules. The apps are a collection of modules. The entry points for the modules are app.js and add-deed-app.js. Each of those compiles into a single index.js that is referenced by an html file.
+**Presenter app**
 
-TODO
+`index.html` contains the static content in the app, which is mostly just text and a `<section>` tag. It's the first thing the browser loads. It then loads `index.js`.
 
+`index.js`, in production, is a single JavaScript file containing all of the application logic.
+
+It is built from several modules, each with its own job. [Browserify](http://browserify.org/). Browserify stitches them into a single index.js for easy consumption by the browser.
+
+Modules are units of code that have their own scope. They can export functions or objects or values out of their scope. e.g.:
+
+    const heyString = 'hey';
+
+    function sayHey() {
+      console.log(heyString);
+    }
+
+    module.exports = sayHey;
+
+In the above module `heyString` is not available outside of the module, but `sayHey` is.
+
+Modules reference each other with `require`. e.g.:
+
+    var sayHey = require('./say-hey');
+    var request = require('basic-browser-request');
+
+    function sayHeyIfGoogleIsUp() {
+      var reqOpts = {
+        url: 'https://google.com',
+        method: 'GET'
+      };
+      request(reqOpts, decideOnResponse);
+    }
+
+    function decideOnResponse(error, response, body) {
+      if (error) {
+        console.error(error);
+      }
+      else if (response.statusCode === 200) {
+        sayHey();
+      }
+      else {
+        console.log(`Got status code ${response.statusCode} for google.com.`);
+      }
+    }
+
+    module.exports = sayHeyIfGoogleIsUp;
+
+Here, the function exported by the `say-hey` module is stored in the variable `sayHey`. Similarly, the function exported by the `basic-browser-request` module is stored in `request`. The argument to `require` to pull in `say-hey` starts with a `.`. This indicates that it's a file path, and the module is to be found on the local file system. When a `require` argument does not start with a `.`, that indicates that it's an external Node module has been installed from [NPM](https://docs.npmjs.com/getting-started/what-is-npm).
+
+In the case of this app, the root module is defined in `app.js`. It has an [IIFE](http://benalman.com/news/2010/11/immediately-invoked-function-expression/) named `go` that kicks everything off. You can think of it like `main()` in a C program. Right now, all it does is call `route`.
+
+`route` parses the URL hash (which it expects to be key-value pairs, like '#dataURL=http://something.com/data.yaml&what=something') into a dictionary that tells the app what to present. It looks for a `dataURL` param. If it finds that, it will use data from that URL. (In the future, things may not be this flexible.) If it does not find that parameter, it defaults to `data/deeds.yaml`.
+
+Then, it asks the [list-em-all module](https://github.com/jimkang/list-em-all) to load that data. If the load is successful, `updateAllThings` sorts the loaded deeds, then asks `renderCurrentRoute` to filter the deeds by tags specified in the route, then calls list-em-all to render them.
 
 Development setup
 ------------
