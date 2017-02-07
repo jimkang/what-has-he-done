@@ -129,10 +129,27 @@ For the submission app, the root module is defined in `add-deed-app.js`. As in t
 
 `findToken`'s job is to callback with a valid GitHub API token, either by finding it in a store object or by exchanging a code from the GitHub API for one. 
 
-It looks for a `tokenInfo` property in whichever `store` object you send it. In this case, we're sending it `window.localStorage`, so it's looking for `tokenInfo` in local storage. If it finds it, it calls back with that. If it doesn't find one, but does find a `code` param in the URL route, it calls a [service](https://github.com/jimkang/github-token-exchanger) to trade the code for a token, stores that token, then calls back with the token.
+It looks for a `tokenInfo` property in whichever `store` object you send it. In this case, we're sending it `window.localStorage`, so it's looking for `tokenInfo` in local storage. If it finds it, it calls back with that. If it doesn't find one but does find a `code` param in the URL route, it calls a [service](https://github.com/jimkang/github-token-exchanger) to trade the code for a token, stores that token, then calls back with the token.
 
-TODO
+Once it has the token, it passes it to [DeedSubmitter](https://github.com/jimkang/what-has-he-done/blob/gh-pages/deed-submitter.js). Deed submitter is a module that exports two functions:
 
+- `submitDeed`, which takes a [deed entry](https://github.com/jimkang/what-has-he-done#yaml-example-entry), fetches the existing list of deeds, adds the deed to it, then makes a commit to GitHub with the new list.
+
+- `getDeeds`, which fetches the current list of deeds from GitHub.
+
+`submitDeed` is connected to the UI via [wireAddButton](https://github.com/jimkang/what-has-he-done/blob/gh-pages/representers/wire-add-button.js), a function that:
+
+- Connects the click event listener for the form button to a function that validates the form input.
+- Validates the form button and passes the form values to an external function (in this case, `submitDeed`).
+
+Modules that interact with the DOM will all be kept in  `/representers`.
+
+Style
+-----
+
+- Make sure everything adheres to style rules by running `eslint .`.
+- Use closures and currying instead of prototypal inheritance. By doing this, we avoid having to be careful with `this` and binding. When we pass a function to another function, we know they can be used safely without having to take special care to set up its context. While prototypal inheritance would give us faster instantiation than closures (40 times faster, 7 ns vs. 280 ns in a simple case (http://trevnorris.github.io/NodeDay/#/13)), we do not instantiate anywhere near enough for it to matter.
+- Favor functions as logical units over objects.
 
 Development setup
 ------------
@@ -141,6 +158,7 @@ First, install Node. Then:
 
     npm install
     npm install wzrd -g
+    npm install eslint -g
 
 Run it with:
 
@@ -153,7 +171,7 @@ Then, wzrd will say something like:
 
 You can open your browser to that.
 
-Run `make lint` and before committing.
+Run `eslint .` and before committing.
 
 Tests
 -----
