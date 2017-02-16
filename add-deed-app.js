@@ -14,6 +14,8 @@ var submitDeed;
 })());
 
 function route() {
+    debugger;
+
   // Skip the # part of the query.
   var routeDict = qs.parse(window.location.search.slice(1));
 
@@ -28,6 +30,8 @@ function route() {
 }
 
 function decideOnToken(error, retrievedToken) {
+    debugger;
+
   if (error) {
     if (error.message === 'No token or code found.') {
       redirectToAuth();

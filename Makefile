@@ -3,7 +3,7 @@ UGLIFY = ./node_modules/.bin/uglifyjs
 TRANSFORM_SWITCH = -t [ babelify --presets [ es2015 ] ]
 
 run-add-deed:
-	wzrd add-deed-app.js:add-deed/add-deed-index.js.js \
+	wzrd add-deed-app.js:add-deed/add-deed-index.js \
 		 # --https \
 		 -- \
 			-d \
