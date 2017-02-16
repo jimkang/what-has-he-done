@@ -19,9 +19,14 @@ function findToken({routeDict, store, currentDate}, done) {
     if (tokenInfo.expires > currentDate.getTime()) {
       callNextTick(done, null, tokenInfo.token);
     }
+    else {
+      // Delete expired token.
+      delete store.tokenInfo;
+      callNextTick(done, new Error('No token or code found.'));
+    }
   }
   else {
-    done(new Error('No token or code found.'));
+    callNextTick(done, new Error('No token or code found.'));
   }
 
   function extractToken(res, body) {

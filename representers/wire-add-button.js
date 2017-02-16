@@ -2,7 +2,6 @@ var d3 = require('d3-selection');
 var compact = require('lodash.compact');
 
 function wireAddButton({onClick}) {
-  debugger;
   d3.select('#add-deed-button').on('click', sendFormValues);
 
   function sendFormValues() {
