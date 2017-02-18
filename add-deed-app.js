@@ -14,8 +14,6 @@ var submitDeed;
 })());
 
 function route() {
-    debugger;
-
   // Skip the # part of the query.
   var routeDict = qs.parse(window.location.search.slice(1));
 

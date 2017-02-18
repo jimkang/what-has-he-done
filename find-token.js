@@ -38,8 +38,8 @@ function findToken({routeDict, store, currentDate}, done) {
       });
     }
 
-    if (store.tokenInfo.token) {
-      done(null, store.tokenInfo.token);
+    if (store.tokenInfo) {
+      done(null, JSON.parse(store.tokenInfo).token);
     }
     else {
       done(new Error('Could not get the token from token exchanger.'));
