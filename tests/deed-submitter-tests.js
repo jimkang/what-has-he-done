@@ -5,6 +5,8 @@ var assertNoError = require('assert-no-error');
 var DeedSubmitter = require('../deed-submitter');
 var config = require('../config');
 var curry = require('lodash.curry');
+var jsyaml = require('js-yaml');
+var safeEncoders = require('../safe-encoders');
 
 var request;
 
@@ -21,9 +23,7 @@ var encodeInBase64;
 var decodeFromBase64;
  
 if (typeof window === 'object' && window.btoa) {
-  encodeInBase64 = function encodeInBase64(s) {
-    return window.btoa(s);
-  };
+  encodeInBase64 = safeEncoders.encodeInBase64;
 }
 else {
   encodeInBase64 = function encodeFromBase64(s) {
@@ -32,9 +32,7 @@ else {
 }
 
 if (typeof window === 'object' && window.atob) {
-  decodeFromBase64 = function decodeFromBase64(s) {
-    return window.atob(s);
-  };
+  decodeFromBase64 = safeEncoders.decodeFromBase64;
 }
 else {
   decodeFromBase64 = function decodeFromBase64(s) {
@@ -51,7 +49,7 @@ var defaultCtorOpts = {
   encodeInBase64: encodeInBase64,
   decodeFromBase64: decodeFromBase64,
   shouldSetUserAgent: true,
-  branch: 'test'
+  jsyaml: jsyaml
 };
 
 var deeds = [];
@@ -82,7 +80,6 @@ for (var i = 0; i < 3; ++i) {
 test('getDeeds', getDeedsTest);
 
 deeds.forEach(runSubmitTest);
-console.log('Please head over to https://github.com/jimkang/what-has-he-done-data/commits/test and manually inspect the commits created by these tests.');
 
 function getDeedsTest(t) {
   var getDeeds = DeedSubmitter(defaultCtorOpts).getDeeds;
@@ -93,6 +90,7 @@ function getDeedsTest(t) {
     t.ok(result.sha, 'Result has a SHA.');
     t.ok(result.deeds.length > 0, 'There is at least one deed.');
     result.deeds.forEach(curry(checkDeed)(t));
+    console.log('Please head over to https://github.com/jimkang/what-has-he-done-data/commits/test and manually inspect the commits created by these tests.');
     t.end();
   }
 }

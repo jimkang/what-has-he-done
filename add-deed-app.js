@@ -1,3 +1,5 @@
+/* global jsyaml */
+
 var qs = require('qs');
 var findToken = require('./find-token');
 var config = require('./config');
@@ -5,6 +7,7 @@ var handleError = require('handle-error-web');
 var wireAddButton = require('./representers/wire-add-button');
 var DeedSubmitter = require('./deed-submitter');
 var request = require('basic-browser-request');
+var safeEncoders = require('./safe-encoders');
 
 var token;
 var submitDeed;
@@ -43,8 +46,9 @@ function decideOnToken(error, retrievedToken) {
       gitRepoOwner: 'jimkang',
       gitToken: token,
       request: request,
-      encodeInBase64: window.btoa,
-      decodeFromBase64: window.atob
+      encodeInBase64: safeEncoders.encodeInBase64,
+      decodeFromBase64: safeEncoders.decodeFromBase64,
+      jsyaml: jsyaml
     })
     .submitDeed;
 

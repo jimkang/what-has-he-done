@@ -1,249 +1,349 @@
---- 
--
-  name: Trump tells EPA to freeze all grants and contracts, silenced
-  stamp: 2017-01-24
+- name: 'Trump tells EPA to freeze all grants and contracts, silenced'
+  stamp: 2017-01-24T00:00:00.000Z
   description: >
-    <p>"It has instructed EPA officials to freeze all grants and contracts, a move that could affect everything from state-led climate research to localized efforts to improve air and water quality to environmental justice projects aimed at helping poor communities."</p>
-    <p>EPA told to cease all communications.</p>
+    <p>"It has instructed EPA officials to freeze all grants and contracts, a
+    move that could affect everything from state-led climate research to
+    localized efforts to improve air and water quality to environmental justice
+    projects aimed at helping poor communities."</p> <p>EPA told to cease all
+    communications.</p>
   urls:
-    -
-      name: The Trump Administration Really Doesn't Want EPA Employees Talking to the Press
-      url: http://www.motherjones.com/environment/2017/01/trump-epa-gag-order      
-    -
-      name: 11 stories from President Trump’s first 100 hours that deserve more attention
-      url: https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/01/25/daily-202-11-stories-from-president-trump-s-first-100-hours-that-deserve-more-attention/588823b1e9b69b432bc7e08a/
-    -
-      name: Trump administration tells EPA to freeze all grants, contracts
-      url: https://www.washingtonpost.com/news/energy-environment/wp/2017/01/23/trump-administration-tells-epa-to-freeze-all-grants-contracts/
+    - name: >-
+        The Trump Administration Really Doesn't Want EPA Employees Talking to
+        the Press
+      url: 'http://www.motherjones.com/environment/2017/01/trump-epa-gag-order'
+    - name: >-
+        11 stories from President Trump’s first 100 hours that deserve more
+        attention
+      url: >-
+        https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/01/25/daily-202-11-stories-from-president-trump-s-first-100-hours-that-deserve-more-attention/588823b1e9b69b432bc7e08a/
+    - name: 'Trump administration tells EPA to freeze all grants, contracts'
+      url: >-
+        https://www.washingtonpost.com/news/energy-environment/wp/2017/01/23/trump-administration-tells-epa-to-freeze-all-grants-contracts/
   tags:
     - environment
     - dismantling
     - silencing
-- 
-  name: Warren votes to confirm Ben Carson as Secretary of Housing and Urban Development
-  stamp: 2017-01-24
-  description:
-    Elizabeth Warren votes to confirm Ben Carson as HUD Secretary. After receiving lots of feedback about that from constituents, she offered this <a href="https://www.facebook.com/senatorelizabethwarren/posts/716640075165155">explanation</a>, in which she states that, despite being completely unqualified, because he made promises in writing, she feels he is accountable.
-  urls: 
-    -
-      name: Boston Magazine
-      url: http://www.bostonmagazine.com/news/blog/2017/01/24/warren-markey-trump-cabinet-picks/
-  image: ""
-  tags: 
+- name: >-
+    Warren votes to confirm Ben Carson as Secretary of Housing and Urban
+    Development
+  stamp: 2017-01-24T00:00:00.000Z
+  description: >-
+    Elizabeth Warren votes to confirm Ben Carson as HUD Secretary. After
+    receiving lots of feedback about that from constituents, she offered this <a
+    href="https://www.facebook.com/senatorelizabethwarren/posts/716640075165155">explanation</a>,
+    in which she states that, despite being completely unqualified, because he
+    made promises in writing, she feels he is accountable.
+  urls:
+    - name: Boston Magazine
+      url: >-
+        http://www.bostonmagazine.com/news/blog/2017/01/24/warren-markey-trump-cabinet-picks/
+  image: ''
+  tags:
     - cabinet
     - democrats
     - collaborators
--
-  name: Health and Human Services silenced
-  stamp: 2017-01-24
-  description: "Department of Health and Human Services were reportedly directed “not to send any correspondence to public officials (to include Members of Congress and state and local officials) between now and February 3, unless specifically authorized by the Department."
+- name: Health and Human Services silenced
+  stamp: 2017-01-24T00:00:00.000Z
+  description: >-
+    Department of Health and Human Services were reportedly directed “not to
+    send any correspondence to public officials (to include Members of Congress
+    and state and local officials) between now and February 3, unless
+    specifically authorized by the Department.
   urls:
-    - 
-      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
-      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+    - name: >-
+        Reports of Federal Government Agencies Directed Not to Communicate with
+        the American Public
+      url: >-
+        https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
   tags:
     - silencing
--
-  name: Department of Agriculture silenced
-  stamp: 2017-01-23
-  description: 'Department of Agriculture’s Agricultural Research Service was directed not to release “any public-facing documents,” including, but not limited to, “news releases, photos, fact sheets, news feeds, and social media content,” according to an email obtained by the Associated Press.'
+- name: Department of Agriculture silenced
+  stamp: 2017-01-23T00:00:00.000Z
+  description: >-
+    Department of Agriculture’s Agricultural Research Service was directed not
+    to release “any public-facing documents,” including, but not limited to,
+    “news releases, photos, fact sheets, news feeds, and social media content,”
+    according to an email obtained by the Associated Press.
   urls:
-    - 
-      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
-      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+    - name: >-
+        Reports of Federal Government Agencies Directed Not to Communicate with
+        the American Public
+      url: >-
+        https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
   tags:
     - silencing
     - science
--
-  name: NIH silenced
-  stamp: 2017-01-24
-  description: 'The National Institutes of Health were “to hold on publishing new rules or guidance in the Federal Register or other public forums and discussing them with public officials until the Administration has had an opportunity to review them,” per Institutes spokeswoman Renate Myles.'
+- name: NIH silenced
+  stamp: 2017-01-24T00:00:00.000Z
+  description: >-
+    The National Institutes of Health were “to hold on publishing new rules or
+    guidance in the Federal Register or other public forums and discussing them
+    with public officials until the Administration has had an opportunity to
+    review them,” per Institutes spokeswoman Renate Myles.
   urls:
-    - 
-      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
-      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+    - name: >-
+        Reports of Federal Government Agencies Directed Not to Communicate with
+        the American Public
+      url: >-
+        https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
   tags:
     - silencing
     - science
--
-  name: Department of Transportation silenced
-  stamp: 2017-01-23
-  description: 'The Department of Transportation told employees not to publish news releases or social media until they receive new guidance from the Trump administration.'
+- name: Department of Transportation silenced
+  stamp: 2017-01-23T00:00:00.000Z
+  description: >-
+    The Department of Transportation told employees not to publish news releases
+    or social media until they receive new guidance from the Trump
+    administration.
   urls:
-    - 
-      name: Reports of Federal Government Agencies Directed Not to Communicate with the American Public
-      url: https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
+    - name: >-
+        Reports of Federal Government Agencies Directed Not to Communicate with
+        the American Public
+      url: >-
+        https://sunlightfoundation.com/list-of-federal-government-agencies-told-not-to-communicate-with-the-public/
   tags:
     - silencing
--
-  name: Trump stops agencies from issuing regulations
-  stamp: 2017-01-24
-  description: The regulations cancelled include EPA regulations, rules about mistreating horses, and a rule about inspecting aircraft fuselages for cracks.
+- name: Trump stops agencies from issuing regulations
+  stamp: 2017-01-24T00:00:00.000Z
+  description: >-
+    The regulations cancelled include EPA regulations, rules about mistreating
+    horses, and a rule about inspecting aircraft fuselages for cracks.
   urls:
-    -
-      name: Agencies interpret Trump regulatory freeze broadly
-      url: http://www.politico.com/blogs/under-the-radar/2017/01/agencies-give-trump-regulatory-freeze-broad-reach-234149
+    - name: Agencies interpret Trump regulatory freeze broadly
+      url: >-
+        http://www.politico.com/blogs/under-the-radar/2017/01/agencies-give-trump-regulatory-freeze-broad-reach-234149
   tags:
     - dismantling
     - safety
--
-  name: Sessions refuses to recuse himself from investigations into Trump's constitutional violations
-  stamp: 2017-01-23
+- name: >-
+    Sessions refuses to recuse himself from investigations into Trump's
+    constitutional violations
+  stamp: 2017-01-23T00:00:00.000Z
   urls:
-    -
-      name: Sessions won't recuse himself from DOJ Trump probes
-      url: http://www.politico.com/story/2017/01/jeff-sessions-trump-probes-234087
+    - name: Sessions won't recuse himself from DOJ Trump probes
+      url: 'http://www.politico.com/story/2017/01/jeff-sessions-trump-probes-234087'
   tags:
     - corruption
--
-  name: The State Department’s entire senior management team resigns
-  stamp: 2017-01-26
+- name: The State Department’s entire senior management team resigns
+  stamp: 2017-01-26T00:00:00.000Z
   description: >
-    They were taking on responsibilities and working with the transition team, as if they planned to keep serving, but after a meeting with Tillerson, they suddenly resigned.
-    <blockquote>“It’s the single biggest simultaneous departure of institutional memory that anyone can remember, and that’s incredibly difficult to replicate,” said David Wade, who served as State Department chief of staff under Secretary of State John Kerry. “Department expertise in security, management, administrative and consular positions in particular are very difficult to replicate and particularly difficult to find in the private sector.”</blockquote>
+    They were taking on responsibilities and working with the transition team,
+    as if they planned to keep serving, but after a meeting with Tillerson, they
+    suddenly resigned. <blockquote>“It’s the single biggest simultaneous
+    departure of institutional memory that anyone can remember, and that’s
+    incredibly difficult to replicate,” said David Wade, who served as State
+    Department chief of staff under Secretary of State John Kerry. “Department
+    expertise in security, management, administrative and consular positions in
+    particular are very difficult to replicate and particularly difficult to
+    find in the private sector.”</blockquote>
   urls:
-    -
-      name: The State Department’s entire senior management team just resigned
-      url: https://www.washingtonpost.com/news/josh-rogin/wp/2017/01/26/the-state-departments-entire-senior-management-team-just-resigned/
+    - name: The State Department’s entire senior management team just resigned
+      url: >-
+        https://www.washingtonpost.com/news/josh-rogin/wp/2017/01/26/the-state-departments-entire-senior-management-team-just-resigned/
   tags:
     - dismantling
     - foreign-relations
--
-  name: Trump cancels TPP
-  stamp: 2017-01-23
+- name: Trump cancels TPP
+  stamp: 2017-01-23T00:00:00.000Z
   urls:
-    -
-      name: Trump Abandons Trans-Pacific Partnership, Obama’s Signature Trade Deal
-      url: https://www.nytimes.com/2017/01/23/us/politics/tpp-trump-trade-nafta.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news
+    - name: 'Trump Abandons Trans-Pacific Partnership, Obama’s Signature Trade Deal'
+      url: >-
+        https://www.nytimes.com/2017/01/23/us/politics/tpp-trump-trade-nafta.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news
   tags:
     - trade
--
-  name: Trump cuts funding to aid organizations that offer abortion counseling
-  stamp: 2017-01-23
+- name: Trump cuts funding to aid organizations that offer abortion counseling
+  stamp: 2017-01-23T00:00:00.000Z
   description: >
-    <blockquote>Trump’s version is a radically expanded one, as reporters have begun to notice. In the past, foreign N.G.O.s had to accept the conditions set out by the Mexico City Policy in order to get funds from two stipulated sources: U.S.A.I.D. and, after 2003, the U.S. State Department. But Trump’s version extends the requirement to global aid furnished by all U.S. governmental departments and agencies. This is both sweeping and, in the Trumpian way, very confusing to the people trying to do their jobs in the federal government. It could potentially affect an enormous range of health activities that the United States government engages in around the world, including work combatting H.I.V. and many other infectious diseases, and promoting maternal and child nutrition.</blockquote>
+    <blockquote>Trump’s version is a radically expanded one, as reporters have
+    begun to notice. In the past, foreign N.G.O.s had to accept the conditions
+    set out by the Mexico City Policy in order to get funds from two stipulated
+    sources: U.S.A.I.D. and, after 2003, the U.S. State Department. But Trump’s
+    version extends the requirement to global aid furnished by all U.S.
+    governmental departments and agencies. This is both sweeping and, in the
+    Trumpian way, very confusing to the people trying to do their jobs in the
+    federal government. It could potentially affect an enormous range of health
+    activities that the United States government engages in around the world,
+    including work combatting H.I.V. and many other infectious diseases, and
+    promoting maternal and child nutrition.</blockquote>
   urls:
-    -
-      name: TRUMP MAKES THE GLOBAL GAG RULE ON ABORTION EVEN WORSE
-      url: http://www.newyorker.com/news/daily-comment/trump-makes-the-global-gag-rule-on-abortion-even-worse
+    - name: TRUMP MAKES THE GLOBAL GAG RULE ON ABORTION EVEN WORSE
+      url: >-
+        http://www.newyorker.com/news/daily-comment/trump-makes-the-global-gag-rule-on-abortion-even-worse
   tags:
     - abortion
     - women
     - healthcare
     - dismantling
--
-  name: Trump orders Dakota Access Pipeline environmental reviews stopped
-  stamp: 2017-01-25
+- name: Trump orders Dakota Access Pipeline environmental reviews stopped
+  stamp: 2017-01-25T00:00:00.000Z
   description: >
-    <blockquote>In December, the US Army Corps of Engineers rejected the permit that the project needed for its completion.
-    <p>But on Tuesday, Trump signed a series of directives aimed at speeding up the pipeline's approval process. One of them ordered an end to what he called "incredibly cumbersome" environmental reviews. Those reviews are seen by many government agencies like the Environmental Protection Agency, as well as environmentalists, as cornerstones to ensuring the environment is taken into account when new construction projects are ordered.</p>
+    <blockquote>In December, the US Army Corps of Engineers rejected the permit
+    that the project needed for its completion. <p>But on Tuesday, Trump signed
+    a series of directives aimed at speeding up the pipeline's approval process.
+    One of them ordered an end to what he called "incredibly cumbersome"
+    environmental reviews. Those reviews are seen by many government agencies
+    like the Environmental Protection Agency, as well as environmentalists, as
+    cornerstones to ensuring the environment is taken into account when new
+    construction projects are ordered.</p>
   urls:
-    -
-      name: Protesters say a leak in the Dakota Access pipeline, which Trump just advanced, could be a 'death sentence'
-      url: http://www.businessinsider.com/trump-dakota-access-pipeline-dapl-water-environment-2017-1
+    - name: >-
+        Protesters say a leak in the Dakota Access pipeline, which Trump just
+        advanced, could be a 'death sentence'
+      url: >-
+        http://www.businessinsider.com/trump-dakota-access-pipeline-dapl-water-environment-2017-1
   tags:
     - environment
-    - dismantling    
--
-  name: Trump orders federal agencies to ask manufacturing corporations how to reduce regulation upon themselves
-  stamp: 2017-01-26
+    - dismantling
+- name: >-
+    Trump orders federal agencies to ask manufacturing corporations how to
+    reduce regulation upon themselves
+  stamp: 2017-01-26T00:00:00.000Z
   description: >
-    <blockquote>Section 2 of the Presidential Memo on Manufacturing directs the heads of all federal agencies to (1) expedite reviews and approvals for proposals to build new or expand existing manufacturing facilities; and (2) reduce regulatory burdens affecting domestic manufacturing.</blockquote>
-    There is nothing about considering the fairness or public benefit of the regulations in his memorandum.
+    <blockquote>Section 2 of the Presidential Memo on Manufacturing directs the
+    heads of all federal agencies to (1) expedite reviews and approvals for
+    proposals to build new or expand existing manufacturing facilities; and (2)
+    reduce regulatory burdens affecting domestic manufacturing.</blockquote>
+    There is nothing about considering the fairness or public benefit of the
+    regulations in his memorandum.
   urls:
-    -
-      name: President Trump Directs Federal Agencies to Solicit Input from Manufacturing Sector on Streamlined Permitting and Reduction of Regulatory Burdens
-      url: http://www.natlawreview.com/article/president-trump-directs-federal-agencies-to-solicit-input-manufacturing-sector
--
-  name: Trump suspends U.S. Refugee Admissions Program, shuts out Syrian refugees fleeing war, bans Muslims from entering coutry
-  stamp: 2017-01-27
+    - name: >-
+        President Trump Directs Federal Agencies to Solicit Input from
+        Manufacturing Sector on Streamlined Permitting and Reduction of
+        Regulatory Burdens
+      url: >-
+        http://www.natlawreview.com/article/president-trump-directs-federal-agencies-to-solicit-input-manufacturing-sector
+- name: >-
+    Trump suspends U.S. Refugee Admissions Program, shuts out Syrian refugees
+    fleeing war, bans Muslims from entering coutry
+  stamp: 2017-01-27T00:00:00.000Z
   description: >
-    <p>On <a href="https://twitter.com/Stl_Manifest">Holocaust Remembrance Day</a>, Trump signs an executive order specifically shutting out Syrian refugees fleeing a horrific civil war and suspends the U.S. Refugee Admissions Program for three months. He suspends entry from seven predominantly-Muslim nations for 90 days.</p>
-    <p>Paul Ryan (despite previous statements taking a contrary position) and Alabama Gov. Robert Bentley vocally support it.</p>
-    <p>The executive order invalidates already-issued visas and green cards.</p>
+    <p>On <a href="https://twitter.com/Stl_Manifest">Holocaust Remembrance
+    Day</a>, Trump signs an executive order specifically shutting out Syrian
+    refugees fleeing a horrific civil war and suspends the U.S. Refugee
+    Admissions Program for three months. He suspends entry from seven
+    predominantly-Muslim nations for 90 days.</p> <p>Paul Ryan (despite previous
+    statements taking a contrary position) and Alabama Gov. Robert Bentley
+    vocally support it.</p> <p>The executive order invalidates already-issued
+    visas and green cards.</p>
   urls:
-    -
-      name: Trump Signs Two Executive Orders; Expands Power of Military, ‘Extreme Vetting’
-      url: http://www.nbcnews.com/news/us-news/trump-signs-two-executive-orders-expands-power-military-extreme-vetting-n713336
-    -
-      name: Advocacy, Aid Groups Condemn Trump Order as ‘Muslim Ban’
-      url: http://www.nbcnews.com/news/us-news/advocacy-aid-groups-condemn-trump-s-muslim-ban-order-n713511
+    - name: >-
+        Trump Signs Two Executive Orders; Expands Power of Military, ‘Extreme
+        Vetting’
+      url: >-
+        http://www.nbcnews.com/news/us-news/trump-signs-two-executive-orders-expands-power-military-extreme-vetting-n713336
+    - name: 'Advocacy, Aid Groups Condemn Trump Order as ‘Muslim Ban’'
+      url: >-
+        http://www.nbcnews.com/news/us-news/advocacy-aid-groups-condemn-trump-s-muslim-ban-order-n713511
   tags:
     - racism
     - immigration
     - dismantling
     - paul-ryan
     - robert-bently
--
-  name: Republicans Tom McClintock, Rob Portman, Tom MacArthur and others secretly admit that dismantling ACA will hurt Americans
-  stamp: 2017-01-27
+- name: >-
+    Republicans Tom McClintock, Rob Portman, Tom MacArthur and others secretly
+    admit that dismantling ACA will hurt Americans
+  stamp: 2017-01-27T00:00:00.000Z
   urls:
-    -
-      name: In leaked audio, Republicans destroy their own public talking points on Obamacare
-      url: https://www.washingtonpost.com/blogs/plum-line/wp/2017/01/27/in-leaked-audio-republicans-destroy-their-own-public-talking-points-on-obamacare/?utm_term=.8ae68519ed3a
+    - name: >-
+        In leaked audio, Republicans destroy their own public talking points on
+        Obamacare
+      url: >-
+        https://www.washingtonpost.com/blogs/plum-line/wp/2017/01/27/in-leaked-audio-republicans-destroy-their-own-public-talking-points-on-obamacare/?utm_term=.8ae68519ed3a
   tags:
     - healthcare
     - collaborators
     - congressional-republicans
--
-  name: Trump grants immigration officer powers to local and state police, regardless of training
-  description: <blockquote>The executive action empowers local and state police to “perform the functions of immigration officers in relation to the investigation, apprehension, or detention” of undocumented immigrants.</blockquote>
-  stamp: 2017-01-25
+- name: >-
+    Trump grants immigration officer powers to local and state police,
+    regardless of training
+  description: >-
+    <blockquote>The executive action empowers local and state police to “perform
+    the functions of immigration officers in relation to the investigation,
+    apprehension, or detention” of undocumented immigrants.</blockquote>
+  stamp: 2017-01-25T00:00:00.000Z
   urls:
-    -
-      name: The Scariest Portions of Trump’s Big Immigration Executive Orders
-      url: http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
--
-  name: Trump targets immigrants as the Nazis did in the 1930s
+    - name: The Scariest Portions of Trump’s Big Immigration Executive Orders
+      url: >-
+        http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
+- name: Trump targets immigrants as the Nazis did in the 1930s
   description: >
-    <blockquote><ul><li>It creates a weekly report of “a comprehensive list of criminal actions committed by aliens and any jurisdiction that ignored or otherwise failed to honor any detainers with respect to such aliens.” So, an undocumented immigrant crime report/sanctuary city shame list.</li>
+    <blockquote><ul><li>It creates a weekly report of “a comprehensive list of
+    criminal actions committed by aliens and any jurisdiction that ignored or
+    otherwise failed to honor any detainers with respect to such aliens.” So, an
+    undocumented immigrant crime report/sanctuary city shame list.</li>
         <li>It establishes a special “Office for Victims of Crimes Committed by Removable Aliens.”</li></ul></blockquote>
-  stamp: 2017-01-25
+  stamp: 2017-01-25T00:00:00.000Z
   urls:
-    -
-      name: The Scariest Portions of Trump’s Big Immigration Executive Orders
-      url: http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
--
-  name: Trump removes chairman of the Joint Chiefs and Director of National Intelligence from the National Security Council, adds his white nationalist advisor Steve Bannon
-  stamp: 2017-01-28
+    - name: The Scariest Portions of Trump’s Big Immigration Executive Orders
+      url: >-
+        http://www.slate.com/blogs/the_slatest/2017/01/25/the_scariest_portions_of_trump_s_big_immigration_executive_orders.html
+- name: >-
+    Trump removes chairman of the Joint Chiefs and Director of National
+    Intelligence from the National Security Council, adds his white nationalist
+    advisor Steve Bannon
+  stamp: 2017-01-28T00:00:00.000Z
   description: >
-    <blockquote><a href="https://twitter.com/joshrogin/status/825551239723286528">Steve Bannon is now</a> on the National Security Council Principals Committee, equal status to the Secretaries of State and Defense.</blockquote>
-    <p>Steve Bannon is a white nationalist who once called himself a <a href="http://www.thedailybeast.com/articles/2016/08/22/steve-bannon-trump-s-top-guy-told-me-he-was-a-leninist.html">Leninist who wants to "destroy the state"</a>.</p><p><a href="https://en.wikipedia.org/wiki/Chairman_of_the_Joint_Chiefs_of_Staff">The Chairman of the Joint Chiefs of Staff</a> (CJCS) is, by U.S. law, the highest-ranking and senior most military officer in the United States Armed Forces.</p><p><a href="https://en.wikipedia.org/wiki/Director_of_National_Intelligence">The Director of National Intelligence</a> is the head of the sixteen-member United States Intelligence Community, which includes the CIA and the FBI.</p>
+    <blockquote><a
+    href="https://twitter.com/joshrogin/status/825551239723286528">Steve Bannon
+    is now</a> on the National Security Council Principals Committee, equal
+    status to the Secretaries of State and Defense.</blockquote> <p>Steve Bannon
+    is a white nationalist who once called himself a <a
+    href="http://www.thedailybeast.com/articles/2016/08/22/steve-bannon-trump-s-top-guy-told-me-he-was-a-leninist.html">Leninist
+    who wants to "destroy the state"</a>.</p><p><a
+    href="https://en.wikipedia.org/wiki/Chairman_of_the_Joint_Chiefs_of_Staff">The
+    Chairman of the Joint Chiefs of Staff</a> (CJCS) is, by U.S. law, the
+    highest-ranking and senior most military officer in the United States Armed
+    Forces.</p><p><a
+    href="https://en.wikipedia.org/wiki/Director_of_National_Intelligence">The
+    Director of National Intelligence</a> is the head of the sixteen-member
+    United States Intelligence Community, which includes the CIA and the
+    FBI.</p>
   urls:
-    -
-      name: Trump orders ISIS plan, gives Bannon role in revamped National Security Council
-      url: http://www.chicagotribune.com/news/nationworld/politics/ct-trump-isis-plan-bannon-security-role-20170128-story.html
+    - name: >-
+        Trump orders ISIS plan, gives Bannon role in revamped National Security
+        Council
+      url: >-
+        http://www.chicagotribune.com/news/nationworld/politics/ct-trump-isis-plan-bannon-security-role-20170128-story.html
   tags:
     - security
     - dismantling
     - racism
--
-  name: "Trump orders two regulations to be removed for every one proposed"
-  stamp: 2017-01-30
+- name: Trump orders two regulations to be removed for every one proposed
+  stamp: 2017-01-30T00:00:00.000Z
   description: >
-    <blockquote>(a)  Unless prohibited by law, whenever an executive department or agency (agency) publicly proposes for notice and comment or otherwise promulgates a new regulation, it shall identify at least two existing regulations to be repealed.</blockquote>
-    The administration also sets the budget for regulations to be $0 for 2017.
-    <p><a href="https://en.wikipedia.org/wiki/Administrative_Procedure_Act_(United_States)">Regulations</a> are rules that agencies are empowered to create to enforce laws. The arbitrary removal of a regulation that enforces a law in order to enforce another law or aspect of the law is unprecedented.</p>
+    <blockquote>(a)  Unless prohibited by law, whenever an executive department
+    or agency (agency) publicly proposes for notice and comment or otherwise
+    promulgates a new regulation, it shall identify at least two existing
+    regulations to be repealed.</blockquote> The administration also sets the
+    budget for regulations to be $0 for 2017. <p><a
+    href="https://en.wikipedia.org/wiki/Administrative_Procedure_Act_(United_States)">Regulations</a>
+    are rules that agencies are empowered to create to enforce laws. The
+    arbitrary removal of a regulation that enforces a law in order to enforce
+    another law or aspect of the law is unprecedented.</p>
   urls:
-    -
-      name: "Executive order"
-      url: "https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling"
-    -
-      name: "Trump signs executive order aiming to slash regulations"
-      url: "http://www.cnbc.com/2017/01/30/trump-set-to-sign-executive-order-aiming-to-slash-regulations.html"
+    - name: Executive order
+      url: >-
+        https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling
+    - name: Trump signs executive order aiming to slash regulations
+      url: >-
+        http://www.cnbc.com/2017/01/30/trump-set-to-sign-executive-order-aiming-to-slash-regulations.html
   tags:
     - dismantling
     - corporations
     - safety
--
-  name: Trump forces out Border Patrol chief
-  stamp: 2017-01-26
+- name: Trump forces out Border Patrol chief
+  stamp: 2017-01-26T00:00:00.000Z
   description: >
-    <blockquote>Border Patrol Chief Mark Morgan said he was asked to leave and decided to resign rather than fight the request, according to a U.S. official with knowledge of the brief video conference in which Morgan informed senior agents of the change.</blockquote>
+    <blockquote>Border Patrol Chief Mark Morgan said he was asked to leave and
+    decided to resign rather than fight the request, according to a U.S.
+    official with knowledge of the brief video conference in which Morgan
+    informed senior agents of the change.</blockquote>
   urls:
-    -
-      name: Official: Border Patrol chief tells agents he was forced out
-      url: http://www.chicagotribune.com/news/nationworld/ct-border-patrol-chief-exits-20170126-story.html
+    - name: 'Official: Border Patrol chief tells agents he was forced out'
+      url: >-
+        http://www.chicagotribune.com/news/nationworld/ct-border-patrol-chief-exits-20170126-story.html
   tags:
-  - dismantling
-  - destablization
+    - dismantling
+    - destablization
+
