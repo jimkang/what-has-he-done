@@ -12,6 +12,11 @@ function findToken({routeDict, store, currentDate}, done) {
       method: 'GET',
       url: 'http://162.243.21.88:5876/exchange?code=' + routeDict.code,
     };
+
+    if (window.location.hostname === 'localhost') {
+      reqOpts.url += '&test=true';
+    }
+
     request(reqOpts, sb(extractToken, done));
   }  
   else if (store.tokenInfo) {

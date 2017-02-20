@@ -62,7 +62,7 @@ function redirectToAuth() {
     clientId = config.githubTest.clientId;
   }
   var authURI = 'https://github.com/login/oauth/authorize?' + 
-    'client_id=' + config.github.clientId +
+    'client_id=' + clientId +
     '&scope=public_repo';
 
   window.location.href = authURI;
