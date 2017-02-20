@@ -57,6 +57,10 @@ function decideOnToken(error, retrievedToken) {
 }
 
 function redirectToAuth() {
+  var clientId = config.github.clientId;
+  if (window.location.hostname === 'localhost') {
+    clientId = config.githubTest.clientId;
+  }
   var authURI = 'https://github.com/login/oauth/authorize?' + 
     'client_id=' + config.github.clientId +
     '&scope=public_repo';

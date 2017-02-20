@@ -181,7 +181,7 @@ function DeedSubmitter({
 
     function parsePullRequestResponse(res, body, done) {
       if (res.statusCode === 201) {
-        done(null, body.url);
+        done(null, body.html_url);
       }
       else {
         done(new Error(

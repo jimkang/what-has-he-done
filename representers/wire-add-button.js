@@ -5,6 +5,9 @@ function wireAddButton({onClick}) {
   d3.select('#add-deed-button').on('click', sendFormValues);
 
   function sendFormValues() {
+    d3.select('#success-message').classed('hidden', true);
+    d3.select('#status-message').classed('hidden', true);
+
     var formRoot = d3.select('.deed-form');
     var urlItems = d3.select('.url-form-items').selectAll('li');
 
@@ -16,7 +19,7 @@ function wireAddButton({onClick}) {
     };
 
     if (validate(values)) {
-      onClick(values);
+      onClick(values, updateStatus);
     }
   }
 }
@@ -55,6 +58,20 @@ function updateMessage(text) {
   d3.select('#status-message')
     .text(text)
     .classed('hidden', false);
+}
+
+function updateStatus(error, prURL) {
+  if (error) {
+    d3.select('#success-message').classed('hidden', true);
+    updateMessage(
+      'Had a problem submitting deed: ' + error.message + '\n' + error.stack
+    );
+  }
+  else {
+    d3.select('#success-message .pull-request-link').attr('href', prURL);
+    d3.select('#success-message').classed('hidden', false);
+    d3.select('#status-message').classed('hidden', true);
+  }
 }
 
 module.exports = wireAddButton;
