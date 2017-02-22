@@ -1,8 +1,9 @@
 var d3 = require('d3-selection');
 var compact = require('lodash.compact');
 
-function wireAddButton({onClick}) {
+function wireDeedForm({onAddDeedClick}) {
   d3.select('#add-deed-button').on('click', sendFormValues);
+  d3.select('#add-effect-button').on('click', addEffectFields);
 
   function sendFormValues() {
     d3.select('#success-message').classed('hidden', true);
@@ -19,7 +20,21 @@ function wireAddButton({onClick}) {
     };
 
     if (validate(values)) {
-      onClick(values, updateStatus);
+      onAddDeedClick(values, updateStatus);
+    }
+  }
+
+  function addEffectFields() {
+    var itemsList = d3.select('.effect-items');
+    ['actor', 'change', 'target'].forEach(addItemForField);
+
+    function addItemForField(field) {
+      var item = itemsList.append('li').append('div').classed('form-pair', true);
+      var pair = item.append('div').classed('form-pair', true);
+      pair.append('label').text(field);
+      pair.append('input')
+        .classed('effect-' + field, true)
+        .attr('type', 'text');
     }
   }
 }
@@ -74,4 +89,4 @@ function updateStatus(error, prURL) {
   }
 }
 
-module.exports = wireAddButton;
+module.exports = wireDeedForm;

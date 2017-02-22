@@ -1,5 +1,5 @@
 body {
-  font-family: 'helvetica neue';
+  font-family: 'helvetica neue', sans-serif;
   font-size: 12px;
 }
 
@@ -82,11 +82,14 @@ a:visited {
 
 .deed-form label {
   display: block;
-  text-align: center;
+  text-align: right;
   font-size: 1.5em;
   color: #444;
   min-width: 6.5em;
   padding-top: 0.5em;
+  /* font-family: futura; */
+  margin-right: 0.5em;
+  /* text-transform: uppercase; */
 }
 
 .deed-form .form-pair {
@@ -121,17 +124,18 @@ a:visited {
 
 button {
   margin-top: 1em;
-  background-color: #fb0c6c;
+  background-color: #4CAF50;
   padding-top: 0.25em;
+  /* font-family: futura; */
   padding-left: 1em;
   padding-right: 0.8em;
   border-radius: 4px;
   padding-bottom: 0.25em;
   color: white;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  letter-spacing: 0.16em;
+  font-family: futura, 'Helvetica Neue', Helvetica, sans-serif;
   border: 0;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .url-form-items li {

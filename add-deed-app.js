@@ -4,7 +4,7 @@ var qs = require('qs');
 var findToken = require('./find-token');
 var config = require('./config');
 var handleError = require('handle-error-web');
-var wireAddButton = require('./representers/wire-add-button');
+var wireDeedForm = require('./representers/wire-deed-form');
 var DeedSubmitter = require('./deed-submitter');
 var request = require('basic-browser-request');
 var safeEncoders = require('./safe-encoders');
@@ -52,7 +52,7 @@ function decideOnToken(error, retrievedToken) {
     })
     .submitDeed;
 
-    wireAddButton({onClick: submitDeed});
+    wireDeedForm({onAddDeedClick: submitDeed});
   }
 }
 
