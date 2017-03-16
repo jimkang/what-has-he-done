@@ -45,6 +45,7 @@
     "lodash.curry": "^4.1.1",
     "lodash.intersection": "^4.4.0",
     "lodash.pick": "^4.4.0",
+    "lodash.pluck": "^3.1.2",
     "natural": "^0.5.0",
     "qs": "^6.3.0",
     "standard-bail": "^2.0.1",
