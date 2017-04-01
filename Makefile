@@ -35,3 +35,6 @@ try-creating-branch:
 		-H 'Content-Type: application/json' \
 		-H 'accept: application/json' \
 		-d '{"ref":"refs/heads/from-curl","sha":"0946f6c2e8922dded900de246ce446a5a86ad0c7"}'
+
+try-custom-search:
+	curl "https://www.googleapis.com/customsearch/v1?key=<api-key>&cx=<custom-search-id>&q=trump&alt=json&start=90"
